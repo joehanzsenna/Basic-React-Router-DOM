@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import FirstNest from "./pages/Home/HomeComponents/HomeFirst/FirstNest";
 import SecondNest from "./pages/Home/HomeComponents/HomeFirst/SecondNest";
+import Error from "./pages/ErrorPage/Error";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           </Route>
           <Route path="about" element={<AboutIndex />} />
           <Route path="contacts" element={<ContactsIndex />} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>
