@@ -1,0 +1,9 @@
+.CFcontainer{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(190, 134, 11);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
